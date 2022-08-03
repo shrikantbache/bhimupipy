@@ -34,7 +34,7 @@ setup(
     install_requires=['requests'],
     entry_points={
         'console_scripts': [
-            'bhimupipy=bhimupipy:start_bhimupipy()',
+            'bhimupipy=bhimupipy.__init__:start_bhimupipy',
         ],
     },
 
