@@ -1,0 +1,10 @@
+bhimupipy-venv/
+
+bhimupipy/__pycache__
+
+build
+
+dist
+
+bhimupipy.egg-info
+bhimupipy-venv
