@@ -48,10 +48,13 @@ def start_bhimupipy(config):
         print(json.dumps(data1, indent=3))
 
 
-if __name__ == '__main__':
+def ExecuteBhimupiPy():
     if config['version'] == True and config['upi'] == None:
         print(__version__)
     elif config['version'] == False and config['upi'] != None:
         start_bhimupipy(config)
     else:
         parser.print_help()
+
+if __name__ == '__main__':
+    ExecuteBhimupiPy()
